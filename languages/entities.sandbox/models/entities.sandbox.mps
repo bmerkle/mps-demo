@@ -12,9 +12,6 @@
       </concept>
       <concept id="6407824308330795238" name="entities.structure.IntType" flags="ng" index="1TLFE$" />
       <concept id="6407824308330795240" name="entities.structure.StringType" flags="ng" index="1TLFEE" />
-      <concept id="6407824308330815704" name="entities.structure.EntityType" flags="ng" index="1TLGEq">
-        <reference id="6407824308330815705" name="entity" index="1TLGEr" />
-      </concept>
       <concept id="6407824308330708999" name="entities.structure.EntityResource" flags="ng" index="1TLQD5">
         <child id="6407824308330709002" name="entities" index="1TLQD8" />
       </concept>
@@ -42,12 +39,6 @@
       <node concept="1TLFEz" id="5zHa$8xaY36" role="1TLFEX">
         <property role="TrG5h" value="age" />
         <node concept="1TLFE$" id="5zHa$8xaY38" role="1TLFEI" />
-      </node>
-      <node concept="1TLFEz" id="5zHa$8xb6ri" role="1TLFEX">
-        <property role="TrG5h" value="mycar" />
-        <node concept="1TLGEq" id="5zHa$8xb6rk" role="1TLFEI">
-          <ref role="1TLGEr" node="5zHa$8xaT3v" resolve="Car" />
-        </node>
       </node>
     </node>
     <node concept="1TLQD7" id="5zHa$8xaT3v" role="1TLQD8">
