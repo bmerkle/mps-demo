@@ -12,6 +12,7 @@ gradle-app.setting
 
 # Generated sources and compiled output
 **/source_gen/
+**/source_gen.caches/
 **/classes_gen/
 **/test_gen/
 **/tmp_gen/
@@ -59,3 +60,4 @@ target/
 *.class
 *.pyc
 __pycache__/
+
