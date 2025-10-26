@@ -43,10 +43,6 @@
         <property role="TrG5h" value="age" />
         <node concept="1TLFE$" id="5zHa$8xaY38" role="1TLFEI" />
       </node>
-      <node concept="1TLFEz" id="5zHa$8xcSlK" role="1TLFEX">
-        <property role="TrG5h" value="age" />
-        <node concept="1TLFEE" id="5zHa$8xcSlL" role="1TLFEI" />
-      </node>
       <node concept="1TLFEz" id="5zHa$8xb6ri" role="1TLFEX">
         <property role="TrG5h" value="mycar" />
         <node concept="1TLGEq" id="5zHa$8xb6rk" role="1TLFEI">
