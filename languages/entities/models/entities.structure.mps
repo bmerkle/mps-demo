@@ -122,5 +122,17 @@
     <property role="34LRSv" value="bool" />
     <ref role="1TJDcQ" node="5zHa$8xaT3$" resolve="PrimitiveType" />
   </node>
+  <node concept="1TIwiD" id="5zHa$8xaY3o">
+    <property role="EcuMT" value="6407824308330815704" />
+    <property role="3GE5qa" value="types" />
+    <property role="TrG5h" value="EntityType" />
+    <ref role="1TJDcQ" node="5zHa$8xaT3z" resolve="Type" />
+    <node concept="1TJgyj" id="5zHa$8xaY3p" role="1TKVEi">
+      <property role="IQ2ns" value="6407824308330815705" />
+      <property role="20kJfa" value="entity" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5zHa$8xa$05" resolve="Entity" />
+    </node>
+  </node>
 </model>
 

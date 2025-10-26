@@ -30,7 +30,12 @@
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
+      <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
+        <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
+      <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -111,6 +116,19 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="l2Vlx" id="5zHa$8xaT3S" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5zHa$8xaY3r">
+    <property role="3GE5qa" value="types" />
+    <ref role="1XX52x" to="m4a5:5zHa$8xaY3o" resolve="EntityType" />
+    <node concept="1iCGBv" id="5zHa$8xaY3t" role="2wV5jI">
+      <ref role="1NtTu8" to="m4a5:5zHa$8xaY3p" resolve="entity" />
+      <node concept="1sVBvm" id="5zHa$8xaY3v" role="1sWHZn">
+        <node concept="3F0A7n" id="5zHa$8xaY3z" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
