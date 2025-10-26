@@ -1,0 +1,61 @@
+
+# JetBrains MPS project ignore rules
+
+# IDE settings
+.idea/
+*.iml
+*.ipr
+*.iws
+workspace.xml
+tasks.xml
+gradle-app.setting
+
+# Generated sources and compiled output
+**/source_gen/
+**/classes_gen/
+**/test_gen/
+**/tmp_gen/
+**/out/
+**/build/
+**/artifacts/
+**/plugins/
+**/classes/
+**/gen/
+**/java_gen/
+
+# MPS caches
+.mps/
+.mps-workspace/
+.mps/global/
+.mps/local/
+.mps_modules/
+
+# Logs, temp files
+*.log
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# MPS migration and version control markers
+**/migration.log
+**/migration_reports/
+**/migration-backup/
+
+# JetBrains MPS backup and transient files
+**/.mps.backup/
+**/.mps.history/
+
+# Gradle (if used)
+.gradle/
+build/
+
+# Java build output
+bin/
+target/
+
+# OS and editor noise
+*.class
+*.pyc
+__pycache__/
